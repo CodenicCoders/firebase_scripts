@@ -1,0 +1,31 @@
+{
+  "name": "nowly_firebase_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "build": "npx tsc",
+    "scripts": "npm run build && node -r dotenv/config build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "firebase-admin": "^11.3.0",
+    "url-join": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/url-join": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "typescript": "^4.9.3"
+  }
+}
